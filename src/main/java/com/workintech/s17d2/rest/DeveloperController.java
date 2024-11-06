@@ -24,7 +24,7 @@ public class DeveloperController {
    private Taxable taxable;
 
     @Autowired
-    public DeveloperController(@Qualifier("developerTax") Taxable taxable){
+    public DeveloperController(Taxable taxable){
         this.taxable = taxable;
     }
 
